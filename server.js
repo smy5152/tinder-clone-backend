@@ -6,7 +6,7 @@ const Cards = require("./dbCards.js");
 // App Config
 const app = express();
 const port = process.env.PORT || 8001
-const connection_url = 'mongodb+srv://admin:abcd1234@cluster0.qqe7o.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const connection_url = 'mongodb+srv://admin:<password>@cluster0.qqe7o.mongodb.net/<dbname>?retryWrites=true&w=majority';
 //mongodb + srv://admin:<password>@cluster0.qqe7o.mongodb.net/<dbname>?retryWrites=true&w=majority
 //mongodb + srv://admin:<password>@cluster0.qqe7o.mongodb.net/<dbname>?retryWrites=true&w=majority
 
